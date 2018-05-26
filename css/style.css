@@ -17,23 +17,24 @@ float:right;
 	float:right;
 }
 #background {
-	background-color: blueviolet;
+	background-color:purples;
 	
 }
 .q{
-	float right: 2px;
+	padding-left: 0px;
+	
 }
 img{
 			float: left;
-			width: ;
 			margin: 0 0px;
 			padding: 0 0 0 px;
 		}
 .s{
 	float:right;
 	width: 400px;
+	height: 250px;
 	margin: 0 0;
-	padding: 0 255px 0 0px; 
+	padding: 0 264px 0 0px; 
 	background-color: white;
 	color: red;
 	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
@@ -45,7 +46,6 @@ img{
 	margin: 0 0;
 	padding: 0 157px 0 0px; 
 	background-color: green;
-	font-size: ;
 	color: black;
 }
 .po{
@@ -61,14 +61,13 @@ img{
 	margin: 0 0;
 	padding: 0 199px 0 0px; 
 	background-color: green;
-	font-size: ;
 	color: black;
 }
 .e{
 	color: blue;
 	font-size: 29px;
 }
-#wrapper{width: 1000px; margin: 0 auto; padding: 20px;
+#wrapper{width: 1200px; margin: 0 auto; padding: 0px;
 				background-color: #099911;}	
 #ad{
 	width: 500px; margin: 0 auto; padding: 20px;
@@ -147,7 +146,7 @@ img {
 /*------------------------------ Sprites ------------------------------*/
 #navigation li, #navigation li a:hover, #navigation li.selected a {
 	background-image: url(../images/bg-menu.png);
-	background-repeat: repeat-x;
+	
 }
 #contents div.box, #contents div.box > div, #contents div.body {
 	background-color: green;
@@ -157,9 +156,9 @@ img {
 	background-color: green;
 	background-repeat: no-repeat;
 }
-.ceo img{
-	padding-left: 0px;
-
+.ceo{
+	padding-right: 50px;
+float: right;
 }
 .co{
 	color: white;
@@ -173,8 +172,8 @@ img {
 /** Logo **/
 #logo {
 	float: left;
-	margin: 2px 20px;
-	padding-left: 0;
+	margin-left:  0px;
+	padding-right: 0px;
 	
 }
 /** Navigation **/
@@ -184,7 +183,6 @@ img {
 	height: 50px;
 	width: 490px;
 	margin: 0 ;
-	padding: ;
 }
 #navigation ul {
 	display: inline-block;
@@ -282,12 +280,7 @@ img {
 	padding: 30px 40px 0;
 }
 /** Adbox **/
-#adbox {
-	background: url(../images/bg-adbox.png) no-repeat left top;
-	width: 852px;
-	margin: 0 auto;
-	padding: 4px 5px 18px;
-}
+
 #adbox p {
 	font-size: 16px;
 }
@@ -297,7 +290,7 @@ img {
 	font-size: 30px;
 	background-color: green;
 }
-.v{padding : 15px;
+.v{padding : 0 0px;
 	color: blue;
 	font-size: 30px;
 	background-color: green;
@@ -605,17 +598,18 @@ hr {
 	text-transform: uppercase;
 }
 .g{
-	padding : 0px;
+	
 	color: blue;
 	font-size: 30px;
 	background-color: green;
 	
 }
 
-.g p {
+.g  {
 	margin: 10px;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 29px;
+	color: purple;
 }
 .h{
 	padding-top: 0px;
